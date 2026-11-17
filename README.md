@@ -5,21 +5,21 @@
 
 <h1 align="center">Aphrody</h1>
 
-<p align="center">Aphrody: an AI OS with self-hosted Google services, open-source tools and web platforms. Contact: contact@aphrody.com</p>
+<p align="center">Rust addict</p>
 
 
 ## Projects
 
 | Project | Description | Language | Stars | CI |
 | :-- | :-- | :-- | --: | :-: |
-| [ay](https://github.com/aphrody-dev/ay) | Aphrody: an OS, a browser, a Google and a Cloudflare/Vercel, crafted in any language | Rust | 0 | <a href="https://github.com/aphrody-dev/ay/actions/workflows/check.yml"><img alt="CI" src="https://github.com/aphrody-dev/ay/actions/workflows/check.yml/badge.svg?branch=main"></a> |
-| [rosegriffon](https://github.com/aphrody-labs/rosegriffon) | Rose Griffon monorepo: website, Discord bots, unified API, Achillea ranked, Azalee and the self-hostable rosegriffon executable | TypeScript | 0 | <a href="https://github.com/aphrody-labs/rosegriffon/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/rosegriffon/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
-| [nie](https://github.com/aphrody-labs/nie) | nie: Inazuma Eleven engine, studio, wiki and esports in Rust, self-hostable | Rust | 0 | <a href="https://github.com/aphrody-labs/nie/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/nie/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
-| [nt](https://github.com/aphrody-labs/nt) | nt — bureau open source inspiré de NT : noyau Rust no_std, WebGPU + Direct3D 12 4K, shell .NET 11 NativeAOT, C++23, bun | TypeScript | 0 | <a href="https://github.com/aphrody-labs/nt/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/nt/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
-| [shenron](https://github.com/aphrody-labs/shenron) | Shenron (dragonballfr.com): Dragon Ball site, Discord bot, editorial pipeline, Koharu manga translation and the Shenron agent tooling, built on published Aphrody packages. | TypeScript | 0 | <a href="https://github.com/aphrody-labs/shenron/actions/workflows/server-artifact.yml"><img alt="CI" src="https://github.com/aphrody-labs/shenron/actions/workflows/server-artifact.yml/badge.svg?branch=main"></a> |
-| [tao](https://github.com/aphrody-labs/tao) | Yolo UI fork of aphrody-labs/tao | Rust | 0 | - |
-| [legacy](https://github.com/aphrody-labs/legacy) | Aphrody monorepo: ay (Aphrody YOLO), one runner for TS/JS, bash and Rust on a Bun fork without JSC and WebKit, plus the Unix userland, the AI OS platform, its front ends and ecosystem apps | Rust | 0 | <a href="https://github.com/aphrody-labs/legacy/actions/workflows/unixwin.yml"><img alt="CI" src="https://github.com/aphrody-labs/legacy/actions/workflows/unixwin.yml/badge.svg?branch=main"></a> |
-| [aphrody-git](https://github.com/aphrody-labs/aphrody-git) | The Git stack as one repository: Git, gh, Git for Windows SDK and the Git libraries, as submodules | TypeScript | 0 | - |
+| [ay](https://github.com/aphrody-dev/ay) | Aphrody: an OS, a browser, a Google and a Cloudflare/Vercel, crafted in any language | TypeScript | 0 | <a href="https://github.com/aphrody-dev/ay/actions/workflows/bun-native.yml"><img alt="CI" src="https://github.com/aphrody-dev/ay/actions/workflows/bun-native.yml/badge.svg?branch=main"></a> |
+| [rust-mono](https://github.com/aphrody-labs/rust-mono) | Superproject that pins every Rust toolchain fork of the organization at one commit each, kept in sync with upstream. | TypeScript | 0 | <a href="https://github.com/aphrody-labs/rust-mono/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/rust-mono/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
+| [open](https://github.com/aphrody-labs/open) | Aphrody open ecosystem monorepo: anomalyco (opencode, opentui, sst, openauth, models.dev...) + OpenAI/OpenAPI, Bun AOT + Rust LTO | TypeScript | 0 | <a href="https://github.com/aphrody-labs/open/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/open/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
+| [ai-os](https://github.com/aphrody-dev/ai-os) | Aphrody AI OS: agent kernel, relay (MCP, A2A), model, inference and RAG crates, extracted from aphrody-labs/legacy by tools/extract.ts | Rust | 0 | <a href="https://github.com/aphrody-dev/ai-os/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-dev/ai-os/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
+| [aysh](https://github.com/aphrody-dev/aysh) | The Aphrody shell: Bash 5.3, a terminal multiplexer and an agent surface in one binary, native on Windows, Linux and macOS. | TypeScript | 0 | <a href="https://github.com/aphrody-dev/aysh/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-dev/aysh/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
+| [nie](https://github.com/aphrody-labs/nie) | nie: ecosystem of original football games (Bevy, native GUI, Dioxus) built as Craft Anything jobs; satellite of aphrody-dev/ay | Rust | 0 | <a href="https://github.com/aphrody-labs/nie/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/nie/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
+| [auto](https://github.com/aphrody-labs/auto) | auto: workflow automation, office suite and scraping (Bun + Rust) | TypeScript | 0 | <a href="https://github.com/aphrody-labs/auto/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/auto/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
+| [ayvpn](https://github.com/aphrody-dev/ayvpn) | Aphrody VPN: one tunnel stack (Rust, Go, C, C++, TypeScript) assembled from the Mullvad, Cloudflare and Brave forks | - | 0 | - |
 
 ## Catalog
 

@@ -1,29 +1,42 @@
-<!-- catalog:begin profile -->
 <p align="center">
-  <img alt="Aphrody" src="https://avatars.githubusercontent.com/u/335211382?v=4&s=200" width="100" height="100">
+  <a href="https://aphrody.com">
+    <img alt="Aphrody" src="https://aphrody.com/r2-assets/v1/brand/aphrody/avatar-512.png" width="120" height="120">
+  </a>
 </p>
 
 <h1 align="center">Aphrody</h1>
 
-<p align="center">Rust addict</p>
+<p align="center">
+  Systems engineer building pure-Rust desktop, browser, Wayland, GPU, and edge software at <a href="https://github.com/aphrody-labs">aphrody-labs</a>.
+</p>
 
+<p align="center">
+  <a href="https://aphrody.com">aphrody.com</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://fw.aphrody.com/shell">Live Shell</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://docs.aphrody.com">Docs</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://material.aphrody.com/v1/tokens/m3.css">Material 3 CDN</a>
+</p>
 
-## Projects
+---
 
-| Project | Description | Language | Stars | CI |
-| :-- | :-- | :-- | --: | :-: |
-| [rust-mono](https://github.com/aphrody-labs/rust-mono) | Superproject that pins every Rust toolchain fork of the organization at one commit each, kept in sync with upstream. | TypeScript | 0 | <a href="https://github.com/aphrody-labs/rust-mono/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/rust-mono/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
-| [shenron](https://github.com/aphrody-labs/shenron) | Shenron (dragonballfr.com): Dragon Ball site, Discord bot, editorial pipeline, Koharu manga translation and the Shenron agent tooling, built on published Aphrody packages. | TypeScript | 0 | <a href="https://github.com/aphrody-labs/shenron/actions/workflows/migrate.yml"><img alt="CI" src="https://github.com/aphrody-labs/shenron/actions/workflows/migrate.yml/badge.svg?branch=main"></a> |
-| [nie](https://github.com/aphrody-labs/nie) | nie: ecosystem of original football games (Bevy, native GUI, Dioxus) built as Craft Anything jobs; satellite of aphrody-dev/ay | Rust | 0 | <a href="https://github.com/aphrody-labs/nie/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/nie/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
-| [ay-tools](https://github.com/aphrody-dev/ay-tools) | One build and workspace tool in Rust: just, turborepo, bazel, depot_tools and Chromium's build team tools, merged | Rust | 0 | <a href="https://github.com/aphrody-dev/ay-tools/actions/workflows/windows.yml"><img alt="CI" src="https://github.com/aphrody-dev/ay-tools/actions/workflows/windows.yml/badge.svg?branch=main"></a> |
-| [auto](https://github.com/aphrody-labs/auto) | auto: workflow automation, office suite and scraping (Bun + Rust) | TypeScript | 0 | <a href="https://github.com/aphrody-labs/auto/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/auto/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
-| [open](https://github.com/aphrody-labs/open) | Aphrody open ecosystem monorepo: anomalyco (opencode, opentui, sst, openauth, models.dev...) + OpenAI/OpenAPI, Bun AOT + Rust LTO | TypeScript | 0 | <a href="https://github.com/aphrody-labs/open/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/aphrody-labs/open/actions/workflows/ci.yml/badge.svg?branch=main"></a> |
-| [ay](https://github.com/aphrody-dev/ay) | Aphrody: an OS, a browser, a Google and a Cloudflare/Vercel, crafted in any language | TypeScript | 0 | <a href="https://github.com/aphrody-dev/ay/actions/workflows/check.yml"><img alt="CI" src="https://github.com/aphrody-dev/ay/actions/workflows/check.yml/badge.svg?branch=main"></a> |
-| [ai-os](https://github.com/aphrody-dev/ai-os) | Aphrody AI OS: agent kernel, relay (MCP, A2A), model, inference and RAG crates, extracted from aphrody-labs/legacy by tools/extract.ts | Rust | 0 | <a href="https://github.com/aphrody-dev/ai-os/actions/workflows/ai-os.yml"><img alt="CI" src="https://github.com/aphrody-dev/ai-os/actions/workflows/ai-os.yml/badge.svg?branch=main"></a> |
+## Core Work
 
-## Catalog
+| Project | Summary | Language | Link |
+|---|---|---|---|
+| **Aphrody** | Flat Bun + Rust monorepo (464 Rust crates under `src/`, 32 Bun packages, 27 prebuilt apps): Dioxus 0.8 SSR/Wasm shell, GPUI/Blitz browser, dual-mode Wayland (`HyprlandDesktop` + `GamescopeBigPicture` / Genie 4), Material 3 Expressive design engine, and Cloudflare Workers | Rust / TypeScript | [aphrody-labs/aphrody](https://github.com/aphrody-labs/aphrody) |
+| **Shenron** | Dragon Ball editorial platform, Discord bot, and media pipeline built on Aphrody packages | TypeScript | [aphrody-labs/shenron](https://github.com/aphrody-labs/shenron) |
 
-[Rust crate](https://github.com/aphrody-labs/aphrody/blob/main/docs/reference/catalog/crate.md) | [Bun package](https://github.com/aphrody-labs/aphrody/blob/main/docs/reference/catalog/package.md) | [App](https://github.com/aphrody-labs/aphrody/blob/main/docs/reference/catalog/app.md) | [Infrastructure](https://github.com/aphrody-labs/aphrody/blob/main/docs/reference/catalog/infra.md) | [Upstream](https://github.com/aphrody-labs/aphrody/blob/main/docs/reference/catalog/third-party.md) | [Agent skill](https://github.com/aphrody-labs/aphrody/blob/main/docs/reference/catalog/skill.md)
+## Visual & Desktop Systems
 
-This page is generated from the GitHub API by [scripts/catalog.ts](https://github.com/aphrody-labs/aphrody); projects are ranked by stars, recent pushes and CI status, archived repositories are left out.
-<!-- catalog:end -->
+Built around official Material 3 Expressive tokens (`androidx.compose.material3.tokens`), Googlebook OS freeform geometry (`googlebook_m3`), Omarchy + Hyprland tiling themes, and WGPU 30 shaders.
+
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="https://github.com/basecamp/omarchy/tree/master/themes/kanagawa"><img src="https://aphrody.com/r2-assets/v1/ecosystem/omarchy/kanagawa/preview.png" alt="Kanagawa Omarchy theme preview" width="260"></a><br><strong>Kanagawa</strong> · <code>dark</code></td>
+    <td align="center" width="33%"><a href="https://github.com/basecamp/omarchy/tree/master/themes/nord"><img src="https://aphrody.com/r2-assets/v1/ecosystem/omarchy/nord/preview.png" alt="Nord Omarchy theme preview" width="260"></a><br><strong>Nord</strong> · <code>dark</code></td>
+    <td align="center" width="33%"><a href="https://github.com/basecamp/omarchy/tree/master/themes/rose-pine"><img src="https://aphrody.com/r2-assets/v1/ecosystem/omarchy/rose-pine/preview.png" alt="Rose Pine Omarchy theme preview" width="260"></a><br><strong>Rose Pine</strong> · <code>light</code></td>
+  </tr>
+</table>

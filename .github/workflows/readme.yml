@@ -28,25 +28,15 @@ jobs:
               Authorization: `Bearer ${process.env.GH_TOKEN}`,
               "User-Agent": "aphrody-dev-profile",
             };
-            const fetchRepos = async (url) => {
-              const res = await fetch(url, { headers });
-              if (!res.ok) throw new Error(`${res.status} ${url}`);
-              return res.json();
-            };
-            const [userRepos, orgRepos] = await Promise.all([
-              fetchRepos("https://api.github.com/users/aphrody-dev/repos?per_page=100&sort=updated"),
-              fetchRepos("https://api.github.com/orgs/aphrody-labs/repos?per_page=100&sort=updated"),
-            ]);
-            const active = [...userRepos, ...orgRepos]
-              .filter((r) => !r.private && !r.archived && !r.fork && r.name !== "aphrody-dev")
+            const res = await fetch("https://api.github.com/orgs/aphrody-labs/repos?per_page=100&sort=updated", { headers });
+            if (!res.ok) throw new Error(`${res.status} orgs/aphrody-labs/repos`);
+            const orgRepos = await res.json();
+            const active = orgRepos
+              .filter((r) => !r.private && !r.archived && !r.fork)
               .sort((a, b) => (b.stargazers_count - a.stargazers_count) || b.pushed_at.localeCompare(a.pushed_at));
-            const archived = userRepos
-              .filter((r) => !r.private && r.archived && !r.fork && !["ay-tools", "ayvpn"].includes(r.name))
-              .sort((a, b) => a.name.localeCompare(b.name));
-            const clean = (s) => (s || "").replace(/\s+/g, " ").replace(/,\s*extracted from.*$/i, "").trim();
-            const activeRows = active.map((r) => `| **${r.name}** | ${clean(r.description)} | ${r.language || "—"} | [${r.full_name}](${r.html_url}) |`).join("\n");
-            const archivedRows = archived.map((r) => `| **${r.name}** | ${clean(r.description)} | [${r.full_name}](${r.html_url}) |`).join("\n");
-            const md = `<p align="center">\n  <a href="https://aphrody.com">\n    <img alt="Aphrody" src="https://avatars.githubusercontent.com/u/324927936?v=4" width="104" height="104">\n  </a>\n</p>\n\n<h1 align="center">Aphrody</h1>\n\n<p align="center">\n  Systems engineering in Rust and TypeScript (Bun, WGPU, GPUI, Cloudflare Workers) at <a href="https://github.com/aphrody-labs">aphrody-labs</a>.\n</p>\n\n<p align="center">\n  <a href="https://aphrody.com">aphrody.com</a>\n  &nbsp;&middot;&nbsp;\n  <a href="https://github.com/aphrody-labs">aphrody-labs</a>\n</p>\n\n---\n\n## Public Repositories\n\n| Project | Summary | Language | Link |\n|---|---|---|---|\n${activeRows}\n\n## Archived References\n\n| Project | Summary | Link |\n|---|---|---|\n${archivedRows}\n`;
+            const clean = (s) => (s || "").replace(/\s+/g, " ").trim();
+            const rows = active.map((r) => `| **${r.name}** | ${clean(r.description)} | ${r.language || "—"} | [${r.full_name}](${r.html_url}) |`).join("\n");
+            const md = `<p align="center">\n  <a href="https://aphrody.com">\n    <img alt="Aphrody" src="https://avatars.githubusercontent.com/u/324927936?v=4" width="104" height="104">\n  </a>\n</p>\n\n<h1 align="center">Aphrody</h1>\n\n<p align="center">\n  Systems engineering in Rust and TypeScript (Bun, WGPU, GPUI, Cloudflare Workers) at <a href="https://github.com/aphrody-labs">aphrody-labs</a>.\n</p>\n\n<p align="center">\n  <a href="https://aphrody.com">aphrody.com</a>\n  &nbsp;&middot;&nbsp;\n  <a href="https://github.com/aphrody-labs">aphrody-labs</a>\n</p>\n\n---\n\n## Public Repositories\n\n| Project | Summary | Language | Link |\n|---|---|---|---|\n${rows}\n`;
             await Bun.write("README.md", md);
           '
       - name: Commit

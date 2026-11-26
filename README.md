@@ -22,8 +22,8 @@
 
 | Project | Summary | Language | Link |
 |---|---|---|---|
-| **agentkit** | Claude Code setup monorepo (Bun + Rust): plugin, MCP code mode, A2A, fleet, headless IDE | Rust | [aphrody-labs/agentkit](https://github.com/aphrody-labs/agentkit) |
 | **labs** | Forks and crates Bun takes in, purged, patched, deduplicated and tuned in one Cargo workspace | Rust | [aphrody-labs/labs](https://github.com/aphrody-labs/labs) |
+| **agentkit** | Claude Code setup monorepo (Bun + Rust): plugin, MCP code mode, A2A, fleet, headless IDE | Rust | [aphrody-labs/agentkit](https://github.com/aphrody-labs/agentkit) |
 | **aphrody** | Aphrody — Rust and Bun monorepo for desktop, web, OS, and Cloudflare edge applications. | Rust | [aphrody-labs/aphrody](https://github.com/aphrody-labs/aphrody) |
 | **agent-sessions** | Agent session transcripts (agy, Claude), redacted; private | TypeScript | [aphrody-labs/agent-sessions](https://github.com/aphrody-labs/agent-sessions) |
 | **ay** | Zed, Bun, Blitz, and Cloudflare assembled in Rust | Rust | [aphrody-labs/ay](https://github.com/aphrody-labs/ay) |

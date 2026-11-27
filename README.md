@@ -22,13 +22,12 @@
 
 | Project | Summary | Language | Link |
 |---|---|---|---|
-| **aphrody** | Aphrody — Rust and Bun monorepo for desktop, web, OS, and Cloudflare edge applications. | Rust | [aphrody-labs/aphrody](https://github.com/aphrody-labs/aphrody) |
-| **ay** | Zed, Bun, Blitz, and Cloudflare assembled in Rust | Rust | [aphrody-labs/ay](https://github.com/aphrody-labs/ay) |
-| **aphrody-kit** | Polyglot foundation monorepo: zero-copy Rust corelib, C ABI/FFI, Craft GPUI, 9 @aphrody/* Bun packages, Python, and Go | TypeScript | [aphrody-labs/aphrody-kit](https://github.com/aphrody-labs/aphrody-kit) |
-| **aphrody-plugins** | Unified Antigravity-compliant plugin submodule (.agents/plugins/aphrody-kit) for Aphrody Labs projects | Python | [aphrody-labs/aphrody-plugins](https://github.com/aphrody-labs/aphrody-plugins) |
-| **aphrody-skills** | Shared, linted, compressed Antigravity skills submodule (.agents/skills) for Aphrody Labs projects | Python | [aphrody-labs/aphrody-skills](https://github.com/aphrody-labs/aphrody-skills) |
-| **agentkit** | Claude Code setup monorepo (Bun + Rust): plugin, MCP code mode, A2A, fleet, headless IDE | Rust | [aphrody-labs/agentkit](https://github.com/aphrody-labs/agentkit) |
-| **labs** | Forks and crates Bun takes in, purged, patched, deduplicated and tuned in one Cargo workspace | Rust | [aphrody-labs/labs](https://github.com/aphrody-labs/labs) |
-| **wiki** | Rust workspace of shenron: koharu, dragon-pixel and the shenron-* crates; reads shenron/data | Rust | [aphrody-labs/wiki](https://github.com/aphrody-labs/wiki) |
+| **aphrody** | Aphrody product monorepo: Auto SaaS, Bun/Rust apps, pure-Rust OS/agent userland, and Cloudflare Workers (.cloudflare/). | Rust | [aphrody-labs/aphrody](https://github.com/aphrody-labs/aphrody) |
+| **shenron** | Shenron (dragonballfr.com): Rust API/CLI, Bun web UI, Discord bot, OCR/Studio pipeline, and Cloudflare CDN (.cloudflare/). | TypeScript | [aphrody-labs/shenron](https://github.com/aphrody-labs/shenron) |
+| **nie** | NIE: pure-Rust football game engines, archive tools, and Bevy/Dioxus clients. | Rust | [aphrody-labs/nie](https://github.com/aphrody-labs/nie) |
+| **aphrody-kit** | Aphrody polyglot foundation: zero-copy Rust corelib, C ABI/FFI, Craft GPUI (WebGPU-only), Fleet BOM, and reusable CI. | TypeScript | [aphrody-labs/aphrody-kit](https://github.com/aphrody-labs/aphrody-kit) |
+| **ay** | Open-source pure-Rust engines, headless runtimes, and workers (0 JSC, 0 vendor, Thin-LTO). | Rust | [aphrody-labs/ay](https://github.com/aphrody-labs/ay) |
+| **aphrody-skills** | Shared, audited Antigravity & Claude Code skills submodule (.agents/skills). | Python | [aphrody-labs/aphrody-skills](https://github.com/aphrody-labs/aphrody-skills) |
+| **aphrody-plugins** | Shared Antigravity & Claude Code plugins submodule (.agents/plugins). | Python | [aphrody-labs/aphrody-plugins](https://github.com/aphrody-labs/aphrody-plugins) |
 | **chromium-file-manager** | Mirror of chromium/src ui/file_manager (ChromeOS Files app) at 159.0.8154.13, BSD-3-Clause | TypeScript | [aphrody-labs/chromium-file-manager](https://github.com/aphrody-labs/chromium-file-manager) |
 | **android-documentsui** | Mirror of AOSP platform/packages/apps/DocumentsUI at android-17.0.0_r1 (Android Files app), Apache-2.0 | Java | [aphrody-labs/android-documentsui](https://github.com/aphrody-labs/android-documentsui) |

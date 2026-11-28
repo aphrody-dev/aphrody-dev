@@ -22,12 +22,11 @@
 
 | Project | Summary | Language | Link |
 |---|---|---|---|
-| **aphrody** | Aphrody product monorepo: Auto SaaS, Bun/Rust apps, pure-Rust OS/agent userland, and Cloudflare Workers (.cloudflare/). | Rust | [aphrody-labs/aphrody](https://github.com/aphrody-labs/aphrody) |
-| **shenron** | Shenron (dragonballfr.com): Rust API/CLI, Bun web UI, Discord bot, OCR/Studio pipeline, and Cloudflare CDN (.cloudflare/). | TypeScript | [aphrody-labs/shenron](https://github.com/aphrody-labs/shenron) |
-| **nie** | NIE: pure-Rust football game engines, archive tools, and Bevy/Dioxus clients. | Rust | [aphrody-labs/nie](https://github.com/aphrody-labs/nie) |
-| **aphrody-kit** | Aphrody polyglot foundation: zero-copy Rust corelib, C ABI/FFI, Craft GPUI (WebGPU-only), Fleet BOM, and reusable CI. | TypeScript | [aphrody-labs/aphrody-kit](https://github.com/aphrody-labs/aphrody-kit) |
+| **awesome** | Curated awesome catalog of Rust, Bun, GPUI, WebGPU, and AI-first engineering upstreams | — | [aphrody-labs/awesome](https://github.com/aphrody-labs/awesome) |
+| **awc** | awc — Pure-Rust byte-level Assembly Web Compiler (Rust/C/C++/Zig -> Wasm32 + Naga WebGPU WGSL) | Rust | [aphrody-labs/awc](https://github.com/aphrody-labs/awc) |
+| **aui** | AUI — A Bun for UI · A Bun for Design · An Agents Design UI (zero-copy Rust + Naga 30 + Taffy 16 + Base UI + Tailwind v4 + AG-UI) | Rust | [aphrody-labs/aui](https://github.com/aphrody-labs/aui) |
 | **ay** | Open-source pure-Rust engines, headless runtimes, and workers (0 JSC, 0 vendor, Thin-LTO). | Rust | [aphrody-labs/ay](https://github.com/aphrody-labs/ay) |
-| **aphrody-skills** | Shared, audited Antigravity & Claude Code skills submodule (.agents/skills). | Python | [aphrody-labs/aphrody-skills](https://github.com/aphrody-labs/aphrody-skills) |
-| **aphrody-plugins** | Shared Antigravity & Claude Code plugins submodule (.agents/plugins). | Python | [aphrody-labs/aphrody-plugins](https://github.com/aphrody-labs/aphrody-plugins) |
-| **chromium-file-manager** | Mirror of chromium/src ui/file_manager (ChromeOS Files app) at 159.0.8154.13, BSD-3-Clause | TypeScript | [aphrody-labs/chromium-file-manager](https://github.com/aphrody-labs/chromium-file-manager) |
-| **android-documentsui** | Mirror of AOSP platform/packages/apps/DocumentsUI at android-17.0.0_r1 (Android Files app), Apache-2.0 | Java | [aphrody-labs/android-documentsui](https://github.com/aphrody-labs/android-documentsui) |
+| **alib** | ALIB — Open-source non-UI polyglot zero-copy shared libraries (Rust core + audited C ABI + Bun FFI) | TypeScript | [aphrody-labs/alib](https://github.com/aphrody-labs/alib) |
+| **plugins** | Shared Antigravity & Claude Code plugins submodule (.agents/plugins). | Shell | [aphrody-labs/plugins](https://github.com/aphrody-labs/plugins) |
+| **.github** | Org-wide reusable CI workflows, profile, and Fleet BOM for aphrody-labs | — | [aphrody-labs/.github](https://github.com/aphrody-labs/.github) |
+| **skills** | Shared, audited Antigravity & Claude Code skills submodule (.agents/skills). | Python | [aphrody-labs/skills](https://github.com/aphrody-labs/skills) |
